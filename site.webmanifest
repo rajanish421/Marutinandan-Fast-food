@@ -1,0 +1,17 @@
+{
+  "name": "Maruti Nandan Fast Food",
+  "short_name": "Maruti Nandan",
+  "description": "Hungry in Kasia Bazaar, Kushinagar? Maruti Nandan Fast Food serves fresh burgers, momos, paneer rolls, pizza, chowmein, fries & shakes. See every dish in 3D and order on WhatsApp.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8ef",
+  "theme_color": "#fff8ef",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

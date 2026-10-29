@@ -1,0 +1,20 @@
+{
+  "name": "maruti-nandan-fast-food-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static, animated, 3D fast-food website. Edit data/shop-data.js to change everything.",
+  "scripts": {
+    "serve": "node tools/serve.js",
+    "seo": "node tools/seo.js",
+    "build": "node tools/build.js && node tools/seo.js",
+    "dev": "node tools/build.js --dev --watch"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
